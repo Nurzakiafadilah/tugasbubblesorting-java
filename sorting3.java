@@ -16,15 +16,15 @@ public class sorting3
 			a[b]=panjang.nextInt();
 		}
 
-		for (int i=0; i<a.length; i++)
-		{
+
+		
 		for (int z=0; z<a.length-1; z++)
 		{
 			if(a[z]>a[z+1]){
 				ember=a[z];
 				a[z]=a[z+1];
 				a[z+1]=ember;
-			}
+			
 		}
 	}
 
